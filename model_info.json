@@ -114,10 +114,9 @@
 						"Local": "local",
 						"From other Job": "other_job"
 					},
-					"log":{
+					"log_dir":{
 						"name": "Logs",
-						"default": "log",
-						"type":"file",
+						"sub_type" :"log",
 						"required": true,
 					},
 					"val_set_size":{
@@ -178,7 +177,7 @@
 
 					},
 
-
+                
 					"url": "https://raw.githubusercontent.com/LatticeSemi/Model_Info/dev/pre_trained_models/ecp5_vgg_sqdet_human_count.zip"
 				}
 			},
