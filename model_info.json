@@ -43,7 +43,7 @@
 	},
 	{
 		"model_name": "QVGA",
-		"git_url": "https://github.com/LatticeSemi/Human-Count.git -b 2.0"
+		"git_url": "https://github.com/LatticeSemi/Human-Count.git -b 2.0",
 		"model_spec": {
 			"target_device": "ECP5",
 			"target_application": "Object Detection",
