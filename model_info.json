@@ -116,6 +116,7 @@
 					},
 					"log_dir":{
 						"name": "Logs",
+						"type": "dir",
 						"sub_type" :"log",
 						"required": true,
 					},
