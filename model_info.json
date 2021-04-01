@@ -157,7 +157,7 @@
 					},
 					"filterdepths":{
 						"name": "filterdepths",
-						"default": "32",
+						"default": "32,32,32,64,64,128,128",
 						"type": "int",
 						"required": false
 
@@ -165,14 +165,14 @@
 
 					"sparsity":{
 						"name": "sparsity",
-						"default": "0.25",
+						"default": "0.25,0.25,0.35,0.35,0.45,0.45",
 						"type": "int",
 						"required": false
 
 					},
 					"epochs": {
 						"name": "epochs",
-						"default": "110",
+						"default": "110,10,50",
 						"type": "int",
 						"required": false
 
