@@ -118,27 +118,27 @@
 						"name": "Logs",
 						"type": "dir",
 						"sub_type" :"log",
-						"required": true,
+						"required": true
 					},
 					"val_set_size":{
 						"name": "val_set_size",
 						"default": "10",
 						"type": "int",
-						"required": false,
+						"required": false
 
 					},
 					"color_code":{
 						"name": "color_code",
 						"default": "gray",
 						"type": "str",
-						"required": true,
+						"required": true
                     },
 
 					"validation_freq":{
 						"name": "validation_freq",
 						"default": "10",
 						"type": "int",
-						"required": false,
+						"required": false
 
 					},
 
@@ -146,20 +146,20 @@
 						"name": "pruning",
 						"default": "runpruning",
 						"type": "str",
-						"required": false,
+						"required": false
 					},
 					"early_pooling ":{
 						"name": "pooling",
 						"default": "early_pooling ",
 						"type": "str",
-						"required": false,
+						"required": false
 
 					},
 					"filterdepths":{
 						"name": "filterdepths",
 						"default": "32",
 						"type": "int",
-						"required": false,
+						"required": false
 
 					},
 
@@ -167,7 +167,7 @@
 						"name": "sparsity",
 						"default": "0.25",
 						"type": "int",
-						"required": false,
+						"required": false
 
 					},
 					"epochs": {
