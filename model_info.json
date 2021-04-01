@@ -98,24 +98,7 @@
 					"type": "str",
 					"required": true
 				},
-				"summary_step": {
-					"name": "Summary Steps",
-					"default": "100",
-					"type": "int",
-					"required": true
-				},
-				"max_steps": {
-					"name": "Max Steps",
-					"default": "250000",
-					"type": "int",
-					"required": true
-				},
-				"checkpoint_step": {
-					"name": "Checkpoint Interval",
-					"default": "1000",
-					"type": "int",
-					"required": true
-				},
+				
 				"gpu": {
 					"name": "Visible GPUs",
 					"default": "0",
@@ -131,6 +114,71 @@
 						"Local": "local",
 						"From other Job": "other_job"
 					},
+					"log":{
+						"name": "Logs",
+						"default": "log",
+						"type":"file",
+						"required": true,
+					},
+					"val_set_size":{
+						"name": "val_set_size",
+						"default": "10",
+						"type": "int",
+						"required": false,
+
+					},
+					"color_code":{
+						"name": "color_code",
+						"default": "gray",
+						"type": "str",
+						"required": true,
+                    },
+
+					"validation_freq":{
+						"name": "validation_freq",
+						"default": "10",
+						"type": "int",
+						"required": false,
+
+					},
+
+					"runpruning":{
+						"name": "pruning",
+						"default": "runpruning",
+						"type": "str",
+						"required": false,
+					},
+					"early_pooling ":{
+						"name": "pooling",
+						"default": "early_pooling ",
+						"type": "str",
+						"required": false,
+
+					},
+					"filterdepths":{
+						"name": "filterdepths",
+						"default": "32,32,32,64,64,128,128",
+						"type": "int",
+						"required": false,
+
+					},
+
+					"sparsity":{
+						"name": "sparsity",
+						"default": "0.25,0.25,0.35,0.35,0.45,0.45",
+						"type": "int",
+						"required": false,
+
+					},
+					"epochs": {
+						"name": "epochs",
+						"default": "110,10,50",
+						"type": "int",
+						"required": false
+
+					},
+
+
 					"url": "https://raw.githubusercontent.com/LatticeSemi/Model_Info/dev/pre_trained_models/ecp5_vgg_sqdet_human_count.zip"
 				}
 			},
