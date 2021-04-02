@@ -103,7 +103,7 @@
 					},
 				"gray":{
 						"name": "color_code",
-						"default": "store_true",
+						"default": "True",
 						"type": "str",
 						"required": true
                     },
@@ -118,13 +118,13 @@
 
 				"runpruning":{
 						"name": "pruning",
-						"default": "store_true",
+						"default": "True",
 						"type": "str",
 						"required": true
 					},
 				"early_pooling ":{
 						"name": "pooling",
-						"default": "store_true",
+						"default": "False",
 						"type": "str",
 						"required": true
 
@@ -151,6 +151,12 @@
 						"required": true
 
 					},
+				"init":{
+					"name": "init",
+					"default": "None",
+					"type": "str",
+					"required": true
+				}
 				"transfer_learning": {
 					"name": "Transfer Learning",
 					"type": "dropdown",
