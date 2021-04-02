@@ -74,28 +74,11 @@
 					"type": "str",
 					"required": true
 				},
-				"net": {
-					"name": "Architecture",
-					"default": "squeezeDet",
-					"type": "str",
-					"required": true
-				},
+				
 				"data_path": {
 					"name": "Dataset Path",
 					"type": "dir",
 					"sub_type": "dataset",
-					"required": true
-				},
-				"train_dir": {
-					"name": "Checkpoint Path",
-					"type": "dir",
-					"sub_type": "checkpoint",
-					"required": true
-				},
-				"image_set": {
-					"name": "Image Set",
-					"default": "train",
-					"type": "str",
 					"required": true
 				},
 				
@@ -105,15 +88,6 @@
 					"type": "int",
 					"required": true
 				},
-				"transfer_learning": {
-					"name": "Transfer Learning",
-					"type": "dropdown",
-					"required": false,
-					"options": {
-						"Lattice Github": "git_hub",
-						"Local": "local",
-						"From other Job": "other_job"
-					},
 				"log_dir":{
 						"name": "Logs",
 						"type": "dir",
@@ -177,6 +151,16 @@
 						"required": true
 
 					},
+				"transfer_learning": {
+					"name": "Transfer Learning",
+					"type": "dropdown",
+					"required": false,
+					"options": {
+						"Lattice Github": "git_hub",
+						"Local": "local",
+						"From other Job": "other_job"
+					},
+				
 
                 
 					"url": "https://raw.githubusercontent.com/LatticeSemi/Model_Info/dev/pre_trained_models/ecp5_vgg_sqdet_human_count.zip"
