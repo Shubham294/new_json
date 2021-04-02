@@ -114,27 +114,27 @@
 						"Local": "local",
 						"From other Job": "other_job"
 					},
-					"log_dir":{
+				"log_dir":{
 						"name": "Logs",
 						"type": "dir",
 						"sub_type" :"log",
 						"required": true
 					},
-					"val_set_size":{
+				"val_set_size":{
 						"name": "val_set_size",
 						"default": "10",
 						"type": "int",
 						"required": true
 
 					},
-					"color_code":{
+				"color_code":{
 						"name": "color_code",
 						"default": "gray",
 						"type": "str",
 						"required": true
                     },
 
-					"validation_freq":{
+				"validation_freq":{
 						"name": "validation_freq",
 						"default": "10",
 						"type": "int",
@@ -142,20 +142,20 @@
 
 					},
 
-					"runpruning":{
+				"runpruning":{
 						"name": "pruning",
 						"default": "runpruning",
 						"type": "str",
 						"required": true
 					},
-					"early_pooling ":{
+				"early_pooling ":{
 						"name": "pooling",
 						"default": "early_pooling ",
 						"type": "str",
 						"required": true
 
 					},
-					"filterdepths":{
+				"filterdepths":{
 						"name": "filterdepths",
 						"default": "32,32,32,64,64,128,128",
 						"type": "str",
@@ -163,14 +163,14 @@
 
 					},
 
-					"sparsity":{
+				"sparsity":{
 						"name": "sparsity",
 						"default": "0.25,0.25,0.35,0.35,0.45,0.45",
 						"type": "str",
 						"required": true
 
 					},
-					"epochs": {
+				"epochs": {
 						"name": "epochs",
 						"default": "110,10,50",
 						"type": "str",
