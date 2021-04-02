@@ -75,20 +75,20 @@
 					"required": true
 				},
 				
-				"data_path": {
+				"dataset_path": {
 					"name": "Dataset Path",
 					"type": "dir",
 					"sub_type": "dataset",
 					"required": true
 				},
 				
-				"gpu": {
+				"gpuid": {
 					"name": "Visible GPUs",
 					"default": "0",
 					"type": "int",
 					"required": true
 				},
-				"log_dir":{
+				"logdir":{
 						"name": "Logs",
 						"type": "dir",
 						"sub_type" :"log",
@@ -101,7 +101,7 @@
 						"required": true
 
 					},
-				"color_code":{
+				"gray":{
 						"name": "color_code",
 						"default": "gray",
 						"type": "str",
