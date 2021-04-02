@@ -103,7 +103,7 @@
 					},
 				"gray":{
 						"name": "color_code",
-						"default": "gray",
+						"default": "store_true",
 						"type": "str",
 						"required": true
                     },
@@ -118,13 +118,13 @@
 
 				"runpruning":{
 						"name": "pruning",
-						"default": "runpruning",
+						"default": "store_true",
 						"type": "str",
 						"required": true
 					},
 				"early_pooling ":{
 						"name": "pooling",
-						"default": "early_pooling ",
+						"default": "store_true",
 						"type": "str",
 						"required": true
 
