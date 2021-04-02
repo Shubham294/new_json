@@ -156,7 +156,7 @@
 					"default": "None",
 					"type": "str",
 					"required": true
-				}
+				},
 				"transfer_learning": {
 					"name": "Transfer Learning",
 					"type": "dropdown",
