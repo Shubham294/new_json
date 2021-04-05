@@ -105,12 +105,9 @@
 				"gray": {
                     "name": "gray",
                     "type": "checkbox",
-                    "options": {
-                        "unchecked": 0,
-                        "checked": 1
                     },
-                    "default": "gray"
-                    },
+                    
+                    
 				"validation_freq":{
 						"name": "validation_freq",
 						"default": "10",
@@ -122,21 +119,13 @@
 				"runpruning":{
 						"name": "pruning",
                     "type": "checkbox",
-                    "options": {
-                        "unchecked": 0,
-                        "checked": 1
+                    
                     },
-                    "default": "runpruning"
-					},
+                   
 				"early_pooling ":{
 						"name": "pooling",
-                    "type": "checkbox",
-                    "options": {
-                        "unchecked": 0,
-                        "checked": 1
+                    "type": "checkbox"
                     },
-                    "default": "early_pooling"
-					},
 				"filterdepths":{
 						"name": "filterdepths",
 						"default": "32,32,32,64,64,128,128",
