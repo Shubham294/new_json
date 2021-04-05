@@ -104,7 +104,8 @@
 					},
 				"gray": {
                     "name": "gray",
-                    "type": "str"
+                    "type": "checkbox",
+                    "default": true
                     },
                     
                     
@@ -118,13 +119,15 @@
 
 				"runpruning":{
 						"name": "pruning",
-                        "type": "str"
+                        "type": "checkbox",
+                        "default": true
                     
                     },
                    
 				"early_pooling ":{
 						"name": "pooling",
-                        "type": "str"
+                        "type": "checkbox",
+                        "default": true
                     },
 				"filterdepths":{
 						"name": "filterdepths",
