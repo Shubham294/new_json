@@ -103,13 +103,13 @@
 
 					},
 				"gray": {
-                    "name": "Dual Core Mode",
+                    "name": "gray",
                     "type": "checkbox",
                     "options": {
                         "unchecked": 0,
                         "checked": 1
                     },
-                    "default": "checked"
+                    "default": "gray"
                     },
 				"validation_freq":{
 						"name": "validation_freq",
@@ -126,7 +126,7 @@
                         "unchecked": 0,
                         "checked": 1
                     },
-                    "default": "checked"
+                    "default": "runpruning"
 					},
 				"early_pooling ":{
 						"name": "pooling",
@@ -135,7 +135,7 @@
                         "unchecked": 0,
                         "checked": 1
                     },
-                    "default": "checked"
+                    "default": "early_pooling"
 					},
 				"filterdepths":{
 						"name": "filterdepths",
