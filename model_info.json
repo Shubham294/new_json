@@ -89,11 +89,12 @@
 					"required": true
 				},
 				"logdir":{
-						"name": "Logs",
-						"type": "dir",
-						"sub_type" :"log",
-						"required": true
-					},
+					"name": "Eventfile Path",
+					"type": "dir",
+					"sub_type": "artefacts",
+					"selector": "training.train_dir",
+					"required": true
+				},
 				"val_set_size":{
 						"name": "val_set_size",
 						"default": "10",
@@ -101,13 +102,15 @@
 						"required": true
 
 					},
-				"gray":{
-						"name": "color_code",
-						"default": "True",
-						"type": "str",
-						"required": true
+				"gray": {
+                    "name": "Dual Core Mode",
+                    "type": "checkbox",
+                    "options": {
+                        "unchecked": 0,
+                        "checked": 1
                     },
-
+                    "default": "checked"
+                    },
 				"validation_freq":{
 						"name": "validation_freq",
 						"default": "10",
@@ -118,16 +121,21 @@
 
 				"runpruning":{
 						"name": "pruning",
-						"default": "True",
-						"type": "str",
-						"required": true
+                    "type": "checkbox",
+                    "options": {
+                        "unchecked": 0,
+                        "checked": 1
+                    },
+                    "default": "checked"
 					},
 				"early_pooling ":{
 						"name": "pooling",
-						"default": "False",
-						"type": "str",
-						"required": true
-
+                    "type": "checkbox",
+                    "options": {
+                        "unchecked": 0,
+                        "checked": 1
+                    },
+                    "default": "checked"
 					},
 				"filterdepths":{
 						"name": "filterdepths",
@@ -151,12 +159,7 @@
 						"required": true
 
 					},
-				"init":{
-					"name": "init",
-					"default": "None",
-					"type": "str",
-					"required": true
-				},
+				
 				"transfer_learning": {
 					"name": "Transfer Learning",
 					"type": "dropdown",
