@@ -102,6 +102,12 @@
 						"required": true
 
 					},
+				"no_of_layer": {
+					"name": "no_of_layer",
+					"default": "7",
+					"type": "int",
+					"required": true
+				},
 				"gray": {
                     "name": "gray",
                     "type": "flag",
@@ -186,6 +192,7 @@
 				}
 			}
 		},
+
 		"SensAI": {
 			"device": "ECP5",
 			"collapse_layer": 1,
@@ -307,6 +314,7 @@
 				}
 			}
 		},
+
 		"SensAI": {
 			"device": "ECP5",
 			"collapse_layer": 1,
