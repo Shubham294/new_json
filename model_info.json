@@ -154,8 +154,8 @@
 					},
 				"init": {
 					"name": "weight file",
-					"default": "log/train/Humancount_train_model.h5",
-				    "type": "file",
+					"default": "None",
+				    "type": "str",
 					"required": true	
 
 				},
