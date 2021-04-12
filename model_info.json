@@ -154,8 +154,8 @@
 					},
 				"init": {
 					"name": "weight file",
-					"default": "None",
-				    "type": "str",
+					"default": "artifacts/QvgaHumanCountTrained.h5",
+				    "type": "file",
 					"required": true	
 
 				},
