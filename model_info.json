@@ -152,13 +152,6 @@
 						"required": true
 
 					},
-				"init": {
-					"name": "weight file",
-					"default": "None",
-				    "type": "file",
-					"required": true	
-
-				},
 					
 				"usedefaultvalset": {
 					"name": "default val set",
