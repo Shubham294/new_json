@@ -154,7 +154,7 @@
 					},
 				"init": {
 					"name": "weight file",
-					"default": "artifacts/QvgaHumanCountTrained.h5",
+					"default": "log/train/Humancount_train_model.h5",
 				    "type": "file",
 					"required": true	
 
