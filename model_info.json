@@ -102,12 +102,7 @@
 						"required": true
 
 					},
-				"no_of_layer": {
-					"name": "no_of_layer",
-					"default": "7",
-					"type": "int",
-					"required": true
-				},
+				
 				"gray": {
                     "name": "gray",
                     "type": "flag",
@@ -157,6 +152,12 @@
 						"required": true
 
 					},
+				"train_dir": {
+					"name": "Checkpoint Path",
+					"type": "dir",
+					"sub_type": "checkpoint",
+					"required": true
+				},	
 				
 				"transfer_learning": {
 					"name": "Transfer Learning",
