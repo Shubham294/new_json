@@ -155,7 +155,7 @@
 				"init": {
 					"name": "weight file",
 					"default": "None",
-				    "type": "str",
+				    "type": "file",
 					"required": true	
 
 				},
