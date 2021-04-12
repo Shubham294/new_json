@@ -152,13 +152,35 @@
 						"required": true
 
 					},
-				"train_dir": {
-					"name": "Checkpoint Path",
-					"type": "dir",
-					"sub_type": "checkpoint",
+				"init": {
+					"name": "weight file",
+					"default": "None",
+				    "type": "file",
+					"required": true	
+
+				},
+					
+				"usedefaultvalset": {
+					"name": "default val set",
+					"type": "flag",
+                    "default": true
+
+				},
+
+				"freeze_landmark": {
+					"name": "freeze landmark",
+					"default": "None",
+					"type": "str",
 					"required": true
-				},	
-				
+
+				},
+
+				"usecov3": {
+					"name": "usecov3",
+					"type": "flag",
+                    "default": true
+
+				},
 				"transfer_learning": {
 					"name": "Transfer Learning",
 					"type": "dropdown",
