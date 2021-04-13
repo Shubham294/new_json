@@ -186,7 +186,7 @@
 				
 
                 
-					"url": "https://raw.githubusercontent.com/shubham294/checkpoints/blob/master/weight.zip"
+					"url": "https://raw.githubusercontent.com/shubham294/checkpoints/master/weight.zip"
 				}
 			},
 			"tensorboard": {
