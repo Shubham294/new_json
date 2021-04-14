@@ -89,10 +89,9 @@
 					"required": true
 				},
 				"logdir":{
-					"name": "Eventfile Path",
+					"name": "Checkpoint Path",
 					"type": "dir",
-					"sub_type": "artefacts",
-					"selector": "training.train_dir",
+					"sub_type": "checkpoint",
 					"required": true
 				},
 				"val_set_size":{
