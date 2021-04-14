@@ -186,7 +186,7 @@
 				
 
                 
-					"url": "https://raw.githubusercontent.com/shubham294/checkpoints/master/sss_20.zip"
+					"url": "https://raw.githubusercontent.com/LatticeSemi/Model_Info/dev/pre_trained_models/ecp5_vgg_sqdet_human_count.zip"
 				}
 			},
 			"tensorboard": {
