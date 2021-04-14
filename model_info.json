@@ -174,12 +174,7 @@
                     "default": true
 
 				},
-				"train_dir": {
-					"name": "Checkpoint Path",
-					"type": "dir",
-					"sub_type": "checkpoint",
-					"required": true
-				},
+				
 				"transfer_learning": {
 					"name": "Transfer Learning",
 					"type": "dropdown",
