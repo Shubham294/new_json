@@ -64,7 +64,7 @@
 				},
 				"execution_script": {
 					"name": "Execution Script",
-					"default": "train.py",
+					"default": "src/train.py",
 					"type": "file",
 					"required": true
 				},
